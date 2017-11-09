@@ -1,0 +1,17 @@
+Mac Install python 2.7 and python 3 on mac.
+Step1: Install pyenv
+    $ brew install pyenv
+Step2: Enable pyenv in Bash
+    $ vim ~/.bash_profile
+    add: eval "$(pyenv init -)"
+Step3: pyenv install python
+    $ pyenv install 2.7.*
+    $ pyenv install 3.6.*
+Step4: check pyenv versions
+    $ pyenv versions
+Step5: set global python version
+    $ pyenv global 3.6.*
+Step6: set local python version in current directory
+    $ pyenv local 2.7.*
+Step7: check the python version
+    $ python --version
